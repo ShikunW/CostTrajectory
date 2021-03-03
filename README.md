@@ -1,7 +1,7 @@
 ### CostTrajectory: fits two-dimensional P-splines estimating equations for mean cost trajectory estimation.
 
-Description
-------------
+#### Description
+
 Medical claims data has become an increasingly important tool in cancer diagnosis, treatment and costs given its longitudinal assessment of clinical outcomes associated with cancer care and resourceful information based on large population.
 The aim of this paper is to develop an estimating equation approach to integrate massive cost and survival data to access the mean medical cost trajectory in population level, allowing for unignorable heterogeneity and right-censoring. 
 Such adjustment is motivated by investigating the association between cancer care costs and survival for over 18,000 prostate cancer patients from (Surveillance, Epidemiology, and End Results-Medicare Linked Database (SEER-Medicare), for which the cost data are right-skewed with a large proportion of zero values and heavily censored. 
