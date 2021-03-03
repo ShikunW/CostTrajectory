@@ -1,5 +1,5 @@
-# CostTrajectory: fits two-dimensional P-splines estimating equations for mean cost trajectory estimation.
-================
+### CostTrajectory: fits two-dimensional P-splines estimating equations for mean cost trajectory estimation.
+
 Description
 ------------
 Medical claims data has become an increasingly important tool in cancer diagnosis, treatment and costs given its longitudinal assessment of clinical outcomes associated with cancer care and resourceful information based on large population.
@@ -8,6 +8,8 @@ Such adjustment is motivated by investigating the association between cancer car
 Ignoring such data features may distort the accuracy of statistical inference and produce misleading results. To address these issues, we propose a two-part marginal model to depict the censoring mechanism and incorporate flexible mean and variance models to account for heteroskedasticity followed by a P-spline framework with sandwich variance estimator to conduct statistical inference. 
 This approach is verified in simulation studies for finite sample performance, asymptotic properties are studied. Our proposed method is conducted on the prostate cancer dataset, which successfully capture the medical cost trajectory patterns consistent with existing literature.
 
-# Installing the development version from GitHub:
+### Installing the development version from GitHub:
+
 install.packages("devtools")
+
 devtools::install_github("ShikunW/CostTrajectory")
